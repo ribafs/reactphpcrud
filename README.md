@@ -8,16 +8,25 @@ https://nodejs.org/en/
 go to view folder
 
 ```
-cd app/view
+
+- create database
+
+- Configure in app/config/database.php
+
+- Import script db.sql to database
+
+- cd app/view
 ```
 
 ```
 npm install
+
+npm start
 ```
 
-To run the project on localhost:8080:
+To run the project on:
 ```
-npm start
+http://localhost:8080
 ```
 
 To build the project into /build folder:
